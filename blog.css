@@ -1,0 +1,138 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background: black;
+}
+
+hr {
+    width: 100%;
+    color: rgb(32, 20, 68);
+}
+
+header {
+    padding: 25px;
+    font-size: 50px;
+    text-align: center; 
+    color: white;
+    background-image: linear-gradient(rgb(3, 3, 67), black);
+    font-family: 'Wallpoet', cursive;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+} 
+
+li {
+    display: inline;
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+    font-size: 50%; 
+    font-family: 'Wallpoet', cursive;
+}  
+
+li a {
+    display: block;
+    padding: 10px;
+  }
+
+
+
+
+a:hover {
+    color:rgb(32, 20, 68);
+    /* background-color: rgb(33, 1, 12); */
+    border:none;
+}
+
+a {
+    padding-left: 0px;
+    color:white;
+    text-decoration: none;
+    float: left;
+    
+}
+
+
+
+#type_text {
+    color:white;
+    text-align: center;
+    /* position: relative; */
+    top: 200px;
+    left: 0px;
+    font-size: 40px;
+    font-family: 'Wallpoet', cursive;
+} 
+
+/* -------------------------Hamburger drop down---------------------------  */
+
+
+
+
+
+/* -------------------------Hamburger drop down ends -------------------- */
+
+
+
+/*
+input[type=email] {
+    position:relative;
+    width: 50%; 
+    padding: 15px; 
+    margin: 5px 0 22px 0; 
+    float:right;
+    border: none;
+    background: black;
+    color:rgb(252, 252, 252);
+    font-family: 'Wallpoet', cursive;
+    font-size: 200%;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    top: -40px;
+    right: 605px; 
+}   */
+
+/* input[type=fname] {
+    position:relative; 
+    width: 50%; 
+    padding: 15px; 
+    margin: 5px 0 22px 0; 
+    float:left;
+    border: none;
+    background: black;
+    color:rgb(252, 252, 252);
+    font-family: 'Wallpoet', cursive;
+    font-size: 200%;
+    right: 130px;
+    top:80px;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}   */
+
+ /* input[type=lname] {
+    position:relative; 
+    width: 50%; 
+    padding: 15px; 
+    margin: 5px 0 22px 0; 
+    float:right;
+    border: none;
+    background: black;
+    color:rgb(252, 252, 252);
+    font-family: 'Wallpoet', cursive;
+    font-size: 200%;
+    cursor:auto;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    right: 130px;
+    top: 19px;
+}  */

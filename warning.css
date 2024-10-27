@@ -1,0 +1,113 @@
+.popup {
+    background-color: rgba(0, 0, 0, 0.968);
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    padding: 30px 40px; /* Adjust padding as needed */
+    position: fixed; /* Use fixed to stay in view on scroll */
+    left: 0; /* Align to left */
+    top: 0; /* Align to top */
+    border-radius: 0; /* Remove border radius for full-screen */
+    font-family: 'Wallpoet', cursive;
+    overflow: auto; /* Add scroll if content overflows */
+}
+.popup-content {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#acceptBtn {
+    padding: 10px 20px;
+    background-color: #222222; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Wallpoet', cursive;
+}
+
+#acceptBtn:hover {
+    background-color: #1b1b1b;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: black;
+    flex-direction: column;
+    font-family: 'Wallpoet', cursive;
+    /* margin: 0; */
+}
+
+.main {
+    background-image: linear-gradient(rgb(3, 3, 67), black);
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 1500px;
+    height: 800px;
+    text-align: center;
+}
+
+
+h1 {
+    color:white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+/* label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+} */
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #555;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
